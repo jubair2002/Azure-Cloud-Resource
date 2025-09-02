@@ -7,5 +7,5 @@ az network route-table create \
   az network vnet subnet update \
   --resource-group MyResourceGroup \
   --vnet-name MyVnet \
-  --name MySubnet \
+  --name Subnet-01 \
   --route-table MyRouteTable

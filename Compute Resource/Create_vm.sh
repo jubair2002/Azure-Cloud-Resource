@@ -8,7 +8,7 @@ az vm create \
   --admin-username azureuser \
   --admin-password 'jubair2002!@#$' \
   --authentication-type password \
-  --vnet-name MyVNet-01 \
+  --vnet-name MyVNet \
   --subnet Subnet-01 \
   --public-ip-sku Standard
 
