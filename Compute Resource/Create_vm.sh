@@ -9,7 +9,7 @@ az vm create \
   --admin-password 'jubair2002!@#$' \
   --authentication-type password \
   --vnet-name MyVNet \
-  --subnet Subnet-01 \
+  --subnet subnet1 \
   --public-ip-sku Standard
 
 ## create Virtual Machine Using ssh-key authentication
