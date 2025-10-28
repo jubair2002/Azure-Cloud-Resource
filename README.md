@@ -1,16 +1,35 @@
-## Azure CLoud & DevOps Documentation
+# Azure Cloud & DevOps Documentation
 
-This Directory provides a collection of Azure CLI commands & DevOps tools for practicing resource creation and management using in CLI mode. The scripts in this repository are designed to help users learn and automate Azure & DevOps resource provisioning, including resource groups, networking components, virtual machines and more.
+## Overview
+This directory contains Azure CLI commands and DevOps tools for practicing cloud resource management. These scripts help you learn and automate Azure infrastructure creation including:
+- Resource groups 
+- Network components
+- Virtual machines
+- kubernetes
+- terraform
+- Other Azure & DevOps resources
 
 ## Purpose
+- Learn Azure CLI commands
+- Practice cloud automation
+- Reference common Azure operations
 
-- Practice using Azure CLI commands to create and manage resources.
-- Learn how to automate Azure infrastructure setup with shell scripts & CLI Commands.
-- Use as reference for common Azure CLI operations.
+## Important Notes
+1. Update resource names and locations in scripts before running
+2. Install Azure CLI and run `az login` first
+3. Commands may change - check [Azure Documentation](https://docs.microsoft.com/azure)
+4. For DevOps tools, refer to official documentation
 
-## Notes
+## Getting Started
+1. Clone this repository
+2. Install Azure CLI
+3. Login: `az login`
+4. Start with basic scripts in each folder
 
-- Scripts use hardcoded resource names and locations. Update them as needed for your environment.
-- Ensure you have the Azure CLI installed and are logged in (`az login`) before running some scripts.
-- cli command can be changed or update in future.
-- DevOps tools and command can be change in future . for this follow the offical documentation
+## Author
+- *Name*: Habibullah Jubair
+- *GitHub*: [@jubair2002](https://github.com/jubair2002)
+- *Email*: habibullah.jubair2002@outlook.com
+
+---
+**Note**: Scripts are for learning purposes. Test in development environment first. some scripts are in hardcoded. change it as your need. review commands and code before running.
